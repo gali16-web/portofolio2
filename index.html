@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ==========================================
+                  Box Icons
+    =========================================== -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Ahom&display=swap" rel="stylesheet">
+    <!-- ==========================================
+                  Custom CSS
+    =========================================== -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- ==========================================
+                  Breakpoint
+    =========================================== -->
+    <link rel="stylesheet" href="style/breakpoint.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+
+    <!-- SPLASH SCREEN -->
+    <div class="intro">
+      <h1 class="intro-header">
+          <span class="introLogo">Welcome.</span>
+      </h1>
+  </div>
+  <!-- SPLASH SCREEN END -->
+    <!-- ==========================================
+                    Header
+    =========================================== -->
+    <header class="header">
+      <a href="#" class="logo">AL<span>Com.</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- ==========================================
+                  Home Section
+    =========================================== -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>M. GALI ALMAHDI</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <div class="social-media">
+          <a href=""><i class="bx bxl-facebook"></i></a>
+          <a href="https://wa.me/62895417472784"><i class="bx bxl-whatsapp"></i></a>
+          <a href=""><i class="bx bxl-instagram-alt"></i></a>
+          <!-- <a href=""><i class="bx bxl-linkedin"></i></a> -->
+        </div>
+        <!-- add link for your CV into `href` -->
+        <a href="https://wa.me/62895417472784" class="btn">Contact whatsapp</a>     
+       </div>
+
+      <div class="home-img">
+        <img src="image/home.png" alt="home" />
+      </div>
+    </section>
+
+    <!-- ==========================================
+                  About Section
+    =========================================== -->
+<section class="about" id="about">
+  <div class="about-img">
+    <img src="image/me.png" alt="about" />
+  </div>
+
+  <div class="about-content">
+    <h2 class="heading">About <span>Me</span></h2>
+    <p id="about-description">
+      Halo! Nama saya M. Gali Almahdi, lahir pada tanggal 16 September 2005. 
+      Saat ini saya tinggal di Pelawi Seberang, Jln. Tanjung Pura, P. Brandan, Sumatera Utara. 
+      Saya mahasiswa baru di program Ilmu Komputer di Universitas Sumatera, angkatan 2024. 
+      Di samping kuliah, saya bekerja sebagai customer service representative dan teknisi reparasi di sebuah toko komputer di Tanjung Morawa.
+      <span id="more-text" style="display: none;"></span>
+      <span id="typed-text"></span>
+    </p>
+    <a href="javascript:void(0);" id="read-more" onclick="toggleText()" class="btn">Read More</a>
+  </div>
+</section>    
+<!-- ==========================================
+                  Services Section
+    =========================================== -->
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bxs-user-detail"></i>
+          <h3>Pramuniaga</h3>
+          <p>
+            A sales assistant is a person responsible for helping customers find, select, and purchase products in a store or company. 
+            They provide friendly service, offer products, answer questions, and ensure customer satisfaction. Sales assistants are often 
+            knowledgeable about the products they sell and work to enhance both sales and the customer's shopping experience.
+          </p>
+          <a href="https://www.gramedia.com/literasi/pramuniga/" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Devoloper</h3>
+          <p>
+
+            A web developer creates and maintains websites, ensuring they are functional, visually appealing, and user-friendly. They use coding languages and tools to build and style web pages, as well as enable interactivity. With skills in HTML, CSS, JavaScript, and other programming languages, a web developer can handle website structure, design, and basic interactive features.   </p>
+          <a href="https://www.niagahoster.co.id/blog/web-developer/" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-laptop"></i>
+          <h3>computer technician</h3>
+          <p>       
+          A computer technician is a professional responsible for diagnosing, repairing, and maintaining computer systems to ensure optimal performance. They troubleshoot hardware and software issues, perform updates, and replace faulty components when necessary. Computer technicians are often knowledgeable in a range of devices and operating systems, working to improve both the functionality and reliability of the technology used by clients or organizations.
+          </p>
+
+          <a href="https://www.detik.com/edu/detikpedia/d-6917028/teknisi-komputer-tugas-skill-yang-harus-dimiliki-dan-jurusan-kuliahnya" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+                  Portfolio Section
+    =========================================== -->
+<section class="portfolio" id="portfolio">
+  <h2 class="heading">Latest <span>Project</span></h2>
+
+  <div class="portfolio-container">
+    <div class="portfolio-box">
+      <img src="image/img4.jpeg" alt="portfolio" />
+      <div class="portfolio-layer">
+        <h4>Servis Komputer</h4>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="image/img6.jpeg" alt="portfolio" />
+      <div class="portfolio-layer">
+        <h4>Servis Komputer</h4>
+      </div>
+    </div>
+
+    <div class="portfolio-box full-width">
+      <img src="image/img2.png" alt="portfolio" />
+      <div class="portfolio-layer">
+        <h4>Web Portfolio</h4>
+      </div>
+    </div>
+  </div>
+</section> 
+   <!-- ==========================================
+                  Contact Section
+    =========================================== -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- ==========================================
+                  Scroll Reveal
+    =========================================== -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ==========================================
+                   Typed Js
+    =========================================== -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- ==========================================
+                  Custom Js
+    =========================================== -->
+    <script src="script/main.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> <!-- Tambahkan ini jika belum ada -->
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const aboutDescription = document.getElementById("about-description");
+        
+        // Tambahkan kelas setelah 1 detik untuk memulai transisi warna
+        setTimeout(() => {
+            aboutDescription.classList.add("fade-to-white");
+        }, 1000);
+        
+        // Variabel untuk menyimpan instance Typed.js
+        let typed;
+
+        // Fungsi untuk toggle teks
+        window.toggleText = function() {
+            var moreText = document.getElementById("more-text");
+            var btnText = document.getElementById("read-more");
+
+            if (moreText.style.display === "none" || moreText.style.display === "") {
+                // Tampilkan teks tambahan
+                moreText.style.display = "inline"; 
+                btnText.innerHTML = "Read Less"; // Ubah teks tombol
+
+                // Inisialisasi Typed.js saat teks tambahan ditampilkan
+                typed = new Typed("#typed-text", {
+                    strings: [
+                        "Dalam peran saya sebagai teknisi, saya berkesempatan memperbaiki berbagai perangkat, termasuk komputer, handphone, dan printer. Pengalaman saya telah mengajarkan saya untuk memecahkan berbagai masalah, mulai dari kegagalan daya hingga penggantian perangkat keras, seperti masalah LCD dan keyboard, serta menangani instalasi dan pemutakhiran perangkat lunak. Setiap perbaikan tidak hanya membangun keterampilan saya tetapi juga memperdalam pemahaman saya tentang bidang tersebut, yang memungkinkan saya untuk mengikuti perkembangan teknologi terkini. Saya berkomitmen untuk terus belajar dan berkembang dalam bidang perbaikan komputer dan elektronik, dengan tujuan untuk menyempurnakan keahlian saya dan memberikan layanan yang luar biasa. Terima kasih telah meluangkan waktu untuk membaca sedikit tentang perjalanan dan aspirasi saya!"
+                    ],
+                    typeSpeed: 20, // Kecepatan mengetik
+                    backSpeed: 25, // Kecepatan menghapus
+                    backDelay: 1000, // Delay sebelum menghapus
+                    loop: false // Jangan ulang
+                });
+            } else {
+                // Hentikan animasi mengetik
+                if (typed) {
+                    typed.destroy(); // Hentikan instance Typed.js
+                }
+
+                // Sembunyikan teks tambahan
+                moreText.style.display = "none"; // Sembunyikan teks tambahan
+                btnText.innerHTML = "Read More"; // Kembalikan teks tombol
+            }
+        }
+    });
+</script>
+</body>
+</html>
